@@ -1306,11 +1306,16 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
-		background-attachment: fixed;
-		overflow-y: scroll;
+		background-image: url("images/bg.jpg");
+
+		  /* Full height */
+		  height: 100%; 
+
+		  /* Center and scale the image nicely */
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		
 		}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1757,6 +1762,11 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			font-size: 20px;
+			color: #fff;
+			padding: 10px 0;
+			width: 40px;
+			margin-left: 8px;
 		}
 
 		.icon:before {
@@ -2201,13 +2211,17 @@ input, select, textarea {
 	position: fixed;
 	right: -160px;
 	z-index: 1000;
-	font: normal normal 10px 'Font Awesome 5 Brands';
+	font: normal normal 10px;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
 	-ms-transition: all .25s ease;
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
   }
+
+  .fl-fl a {
+	font-family: 'Source Sans Pro', sans-serif;
+	}
   
   .fa {
 	font-size: 20px;
