@@ -2209,7 +2209,7 @@ input, select, textarea {
 	padding: 4px;
 	width: 190px;
 	position: fixed;
-	right: -160px;
+	right: -130px;
 	z-index: 1000;
 	font: normal normal 10px;
 	-webkit-transition: all .25s ease;
