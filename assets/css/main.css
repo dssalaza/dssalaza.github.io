@@ -2209,7 +2209,7 @@ input, select, textarea {
 	padding: 4px;
 	width: 190px;
 	position: fixed;
-	right: -130px;
+	right: -150px;
 	z-index: 1000;
 	font: normal normal 10px;
 	-webkit-transition: all .25s ease;
@@ -2243,11 +2243,11 @@ input, select, textarea {
 	vertical-align: top!important;
   }
   
-  .float-fb {
+  .float-li {
 	top: 160px;
   }
   
-  .float-tw {
+  .float-gh {
 	top: 215px;
   }
   
